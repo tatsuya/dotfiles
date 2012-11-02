@@ -1,0 +1,17 @@
+[user]
+	name = Tatsuya Oiwa
+    #email = tatsuya.oiwa@mail.rakuten.com
+    email = tatsuyaoiw@gmail.com
+[credential]
+    #helper = osxkeychain
+[alias]
+	st = status
+	co = checkout
+	br = branch
+	mg = merge
+	logg = log --oneline --graph --all --decorate
+	fe = fetch
+	rb = rebase
+	ci = commit
+[color]
+	ui = true

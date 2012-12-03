@@ -6,8 +6,12 @@ export LSCOLORS=DxGxcxdxCxegedabagacad
 if [ -f ~/.git-completion.bash ]; then
   source ~/.git-completion.bash
 fi
+
 # Setup Git prompt
 if [ -f ~/.git-prompt.sh ]; then
   source ~/.git-prompt.sh
   export PS1="\W\$(__git_ps1 '(%s)') \u$ "
 fi
+
+# Create an alias
+alias sakura='ssh tatsuyaoiw@www2022uj.sakura.ne.jp'

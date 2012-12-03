@@ -1,9 +1,8 @@
 [user]
 	name = Tatsuya Oiwa
-	#email = tatsuya.oiwa@mail.rakuten.com
 	email = tatsuyaoiw@gmail.com
 [credential]
-	#helper = osxkeychain
+    #helper = osxkeychain
 [alias]
 	st = status
 	co = checkout

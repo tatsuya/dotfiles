@@ -13,5 +13,9 @@ if [ -f ~/.git-prompt.sh ]; then
   export PS1="\W\$(__git_ps1 '(%s)') \u$ "
 fi
 
+# Setting for rbenv
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
+
 # Create an alias
 alias sakura='ssh tatsuyaoiw@www2022uj.sakura.ne.jp'

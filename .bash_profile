@@ -17,5 +17,9 @@ fi
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
-# Create an alias
+# Command aliases
+alias h='history'
 alias sakura='ssh tatsuyaoiw@www2022uj.sakura.ne.jp'
+
+# General path changes
+PATH=${PATH}:~/bin

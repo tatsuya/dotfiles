@@ -1,10 +1,8 @@
 [user]
 	name = Tatsuya Oiwa
-	email = tatsuyaoiw@gmail.com
-[credential]
-    #helper = osxkeychain
 [alias]
 	st = status
+	add-all = add -u
 	co = checkout
 	br = branch
 	mg = merge
@@ -13,4 +11,4 @@
 	rb = rebase
 	ci = commit
 [color]
-	ui = true
+	ui = auto

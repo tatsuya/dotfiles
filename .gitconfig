@@ -12,3 +12,5 @@
 	ci = commit
 [color]
 	ui = auto
+[core]
+	editor = vim -c \"set fenc=utf-8\"

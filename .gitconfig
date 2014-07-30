@@ -2,14 +2,18 @@
 	name = Tatsuya Oiwa
 [alias]
 	st = status
-	add-all = add -u
+	addu = add -u
 	co = checkout
 	br = branch
 	mg = merge
 	logg = log --oneline --graph --all --decorate
-	fe = fetch
+	fe = fetch --prune
 	rb = rebase
 	ci = commit
+	df = diff
+	dfc = diff --cached
+	undo = reset --hard
+	unstage = reset HEAD
 [color]
 	ui = auto
 [core]

@@ -12,7 +12,6 @@
 	ci = commit
 	df = diff
 	dfc = diff --cached
-	undo = reset --hard
 	unstage = reset HEAD
 [color]
 	ui = auto

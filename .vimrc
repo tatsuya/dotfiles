@@ -9,4 +9,4 @@ set tabstop=2
 " Highlight searches
 set hlsearch
 " Enable file type detection
-filetype plugin indent on
+" filetype plugin indent on

@@ -1,6 +1,5 @@
-# Setup Terminal display color
-export CLICOLOR=1
-export LSCOLORS=DxGxcxdxCxegedabagacad
+# General path changes
+PATH=${PATH}:~/bin
 
 # Setup Git autocompletion
 if [ -f ~/.git-completion.bash ]; then
@@ -13,13 +12,27 @@ if [ -f ~/.git-prompt.sh ]; then
   export PS1="\W\$(__git_ps1 '(%s)') \u$ "
 fi
 
-# Setting for rbenv
-export PATH="$HOME/.rbenv/bin:$PATH"
+# Alias definitions
+if [ -f ~/.bash_aliases ]; then
+    . ~/.bash_aliases
+fi
+
+# nodebrew
+export PATH=$HOME/.nodebrew/current/bin:$PATH
+
+# rbenv
+export PATH=$HOME/.rbenv/bin:${HOME}/.rbenv/shims:$PATH
 eval "$(rbenv init -)"
 
-# Command aliases
-alias h='history'
-alias sakura='ssh tatsuyaoiw@www2022uj.sakura.ne.jp'
+# pyenv
+export PATH=$HOME/.pyenv/bin:$PATH
+eval "$(pyenv init -)"
 
-# General path changes
-PATH=${PATH}:~/bin
+# virtualenv
+export VIRTUALENV_DISTRIBUTE=true
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
+
+# dircolors
+eval $(gdircolors ~/.dircolors.ansi-dark)

@@ -5,3 +5,4 @@ if [ -z "$ZSH" ]; then
 fi
 
 echo 'alias sc="systemctl"' >> ~/.zshrc
+echo 'alias jc="journalctl"' >> ~/.zshrc
